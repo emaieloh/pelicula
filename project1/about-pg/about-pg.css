@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+#brand-name {
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}

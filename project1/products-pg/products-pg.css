@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+#brand-name {
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+main {
+    padding-top: 10px;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+}
+
+#ul-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#electric, #bass, #acoustic {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 25%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card img {
+    width: 100%;
+    align-self: flex-end;
+}
+
+footer i {
+    margin-right: 3px;
+}
+
+.fa-mobile-phone, .fa-map-marker {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 991px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 575px) {    
+    #ul-container {
+        width: 50%;
+    }
+    
+    .card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
