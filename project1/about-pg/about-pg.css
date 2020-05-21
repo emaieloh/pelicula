@@ -11,4 +11,71 @@
 
 .nav-link {
     font-size: 1.1rem;
+    transition: font-weight 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+}
+
+#the-brand {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#the-brand img {
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 2px;
+}
+
+#the-brand h4 {
+    align-self: center;
+}
+
+footer i {
+    margin-right: 3px;
+}
+
+.fa-mobile-phone, .fa-map-marker {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 921px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 673px) {
+    main {
+        width: 90%;
+    }
+}
+
+#animated {
+    position: relative;
+    animation-name: practice;
+    animation-duration: 0.5s;
+}
+
+@keyframes practice {
+    0% {
+        left: 100vw;
+        top: 0;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
 }

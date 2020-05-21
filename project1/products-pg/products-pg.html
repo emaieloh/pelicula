@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0">
-        <a href="../static-wb.html" class="navbar-brand d-flex flex-row">
+        <a id="animated" href="../static-wb.html" class="navbar-brand d-flex flex-row">
             <img src="../images/brand-logo.jpg" alt="">
             <h1 id="brand-name" class="align-self-center">Tienda de Musica</h1>
         </a>        
@@ -41,214 +41,220 @@
         <div id="ul-container">
             <ul class="nav nav-tabs justify-content-around" role="tablist">
                 <li class="active nav-item">
-                    <a href="#electric" data-toggle="tab" data-target="#electric" role="tab">Electric Guitar</a>
+                    <a class="tab-cat" href="#electric" data-toggle="tab" data-target="#electric" role="tab">Electric Guitar</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#bass" data-toggle="tab" data-target="#bass" role="tab">Bass Guitar</a>
+                    <a class="tab-cat" href="#bass" data-toggle="tab" data-target="#bass" role="tab">Bass Guitar</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#acoustic" data-toggle="tab" data-target="#acoustic" role="tab">Acoustic Guitar</a>
+                    <a class="tab-cat" href="#acoustic" data-toggle="tab" data-target="#acoustic" role="tab">Acoustic Guitar</a>
                 </li>
             </ul>
             <div id="item-tab" class="tab-content">
                 <div id="electric" class="tab-pane fade show active" data-parent="#item-tab">
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/electric.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Jackson JS332T Kelly (Satin Black)</h5>
-                            <p class="card-text">Php23,300.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                    <div id="electric-container">
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/electric.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Jackson JS332T Kelly (Satin Black)</h5>
+                                <p class="card-text">Php23,300.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/electric2.png" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Gretsch G5426 Electromatic Jet Club Electric</h5>
-                            <p class="card-text">Php24,100.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/electric2.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Gretsch G5426 Electromatic Jet Club Electric</h5>
+                                <p class="card-text">Php24,100.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/electric3.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Jackson JS12 Dinky (White)</h5>
-                            <p class="card-text">Php16,050.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/electric3.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Jackson JS12 Dinky (White)</h5>
+                                <p class="card-text">Php16,050.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/electric4.png" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Gretsch G2655T Streamliner Center Block JR</h5>
-                            <p class="card-text">Php45,060.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/electric4.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Gretsch G2655T Streamliner Center Block JR</h5>
+                                <p class="card-text">Php45,060.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/electric5.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fernando Electric Guitar LP SLP-1 (Black)</h5>
-                            <p class="card-text">Php7,000.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/electric5.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fernando Electric Guitar LP SLP-1 (Black)</h5>
+                                <p class="card-text">Php7,000.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/electric6.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Squier by Fender Vintage Modified</h5>
-                            <p class="card-text">Php21,100.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/electric6.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Squier by Fender Vintage Modified</h5>
+                                <p class="card-text">Php21,100.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/featured-prod3.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Squier by Fender Vintage Modified Jazzmaster Electric</h5>
-                            <p class="card-text">Php29,000.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/featured-prod3.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Squier by Fender Vintage Modified Jazzmaster Electric</h5>
+                                <p class="card-text">Php29,000.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/featured-prod2.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Squier by Fender Modified Vintage HSS Stratocaster</h5>
-                            <p class="card-text">Php21,800.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/featured-prod2.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Squier by Fender Modified Vintage HSS Stratocaster</h5>
+                                <p class="card-text">Php21,800.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div id="bass" class="tab-pane fade" data-parent="#item-tab">
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fender Deluxe Active Jazz Bass Natural</h5>
-                            <p class="card-text">Php74,950.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                    <div id="bass-container">
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fender Deluxe Active Jazz Bass Natural</h5>
+                                <p class="card-text">Php74,950.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass2.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fender Road Worn '60s Pau Ferro Jazz Bass</h5>
-                            <p class="card-text">Php74,950.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass2.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fender Road Worn '60s Pau Ferro Jazz Bass</h5>
+                                <p class="card-text">Php74,950.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass3.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fernando PJB-98 Electric Bass Guitar (Yellow)</h5>
-                            <p class="card-text">Php11,300.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass3.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fernando PJB-98 Electric Bass Guitar (Yellow)</h5>
+                                <p class="card-text">Php11,300.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass4.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fernando PJB-98 Electric Bass Guitar (Black)</h5>
-                            <p class="card-text">Php11,300.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass4.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fernando PJB-98 Electric Bass Guitar (Black)</h5>
+                                <p class="card-text">Php11,300.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass5.png" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fernando LBB101-5 5-String Electric</h5>
-                            <p class="card-text">Php9,250.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass5.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fernando LBB101-5 5-String Electric</h5>
+                                <p class="card-text">Php9,250.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass6.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Squier by Fender Vintage Modified Jazz</h5>
-                            <p class="card-text">Php25,400.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass6.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Squier by Fender Vintage Modified Jazz</h5>
+                                <p class="card-text">Php25,400.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass7.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Jackson JS Series Concert Bass JS3Q</h5>
-                            <p class="card-text">Php29,100.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass7.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Jackson JS Series Concert Bass JS3Q</h5>
+                                <p class="card-text">Php29,100.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/bass8.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fender Pau Ferro Player 5 String Jazz Bass</h5>
-                            <p class="card-text">Php50,950.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/bass8.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fender Pau Ferro Player 5 String Jazz Bass</h5>
+                                <p class="card-text">Php50,950.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div id="acoustic" class="tab-pane fade" data-parent="#item-tab">
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Takamine D1D Acoustic Guitar</h5>
-                            <p class="card-text">Php10,950.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
+                    <div id="acoustic-container">
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Takamine D1D Acoustic Guitar</h5>
+                                <p class="card-text">Php10,950.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic2.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Takamine D2D Acoustic Guitar</h5>
+                                <p class="card-text">Php12,050.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic3.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fernando CG100 Classical Guitar</h5>
+                                <p class="card-text">Php3,300.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic4.png" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fernando DG-100Ce Steel-String Acoustic</h5>
+                                <p class="card-text">Php7,500.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic5.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Martin 00028EC Acoustic Guitar</h5>
+                                <p class="card-text">Php274,500.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic6.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Rodriguez Caballero 7 Classical Guitar</h5>
+                                <p class="card-text">Php12,100.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic7.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Valencia CG150 Classical Guitar (Red)</h5>
+                                <p class="card-text">Php3,300.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="card align-items-end pt-2">
+                            <img src="../images/acoustic8.jpg" alt="">
+                            <div class="card-body">
+                                <h5 class="card-title">Fernando WSCE-F000 Acoustic Guitar Cutaway</h5>
+                                <p class="card-text">Php6,800.00</p>
+                                <a href="" class="btn btn-warning">Add to Cart</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic2.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Takamine D2D Acoustic Guitar</h5>
-                            <p class="card-text">Php12,050.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic3.png" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fernando CG100 Classical Guitar</h5>
-                            <p class="card-text">Php3,300.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic4.png" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fernando DG-100Ce Steel-String Acoustic</h5>
-                            <p class="card-text">Php7,500.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic5.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Martin 00028EC Acoustic Guitar</h5>
-                            <p class="card-text">Php274,500.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic6.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Rodriguez Caballero 7 Classical Guitar</h5>
-                            <p class="card-text">Php12,100.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic7.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Valencia CG150 Classical Guitar (Red)</h5>
-                            <p class="card-text">Php3,300.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="card align-items-end pt-2">
-                        <img src="../images/acoustic8.jpg" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title">Fernando WSCE-F000 Acoustic Guitar Cutaway</h5>
-                            <p class="card-text">Php6,800.00</p>
-                            <a href="" class="btn btn-warning">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
+                </div>                
             </div>
         </div>
     </main>

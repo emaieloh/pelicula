@@ -11,4 +11,126 @@
 
 .nav-link {
     font-size: 1.1rem;
+    transition: font-weight 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+}
+
+h1, p {
+    text-align: center;
+}
+
+form {
+    width: 50%;
+    margin: 25px auto 50px auto;
+}
+
+.form-name, .form-email, .form-textarea {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-name div, .form-email div, .form-textarea div {
+    width: 25%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-right: 2px;
+}
+
+.form-textarea div {
+    height: 30px;
+}
+
+.form-name input, .form-email input, .form-textarea textarea {
+    width: 75%;
+}
+
+.form-email {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+
+button {
+    float: right;
+}
+
+footer i {
+    margin-right: 3px;
+}
+
+.fa-mobile-phone, .fa-map-marker {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 1191px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 859px) {
+    main {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 677px) {
+    form {
+        width: 60%;
+    }
+    
+    .form-name, .form-email, .form-textarea {
+        flex-direction: column;
+    }
+
+    .form-name div, .form-email div, .form-textarea div {
+        width: 35%;
+        margin-bottom: 5px;
+    }
+
+    .form-name input, .form-email input, .form-textarea textarea {
+        width: 100%;
+    }
+
+    button {
+        float: left;
+    }
+}
+
+#animated {
+    position: relative;
+    animation-name: practice;
+    animation-duration: 0.5s;
+}
+
+@keyframes practice {
+    0% {
+        left: 100vw;
+        top: 0;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
 }

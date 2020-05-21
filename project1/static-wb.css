@@ -11,6 +11,11 @@
 
 .nav-link {
     font-size: 1.1rem;
+    transition: font-weight 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: 700;
 }
 
 main {
@@ -97,4 +102,22 @@ footer i {
         margin: 1vh 15vh 1vh 15vh;
     }
 
+}
+
+#animated {
+    position: relative;
+    animation-name: practice;
+    animation-duration: 0.5s;
+}
+
+@keyframes practice {
+    0% {
+        left: 100vw;
+        top: 0;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
 }

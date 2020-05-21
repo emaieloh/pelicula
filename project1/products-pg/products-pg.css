@@ -11,12 +11,27 @@
 
 .nav-link {
     font-size: 1.1rem;
+    transition: font-weight 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: 700;
 }
 
 main {
     padding-top: 10px;
+    padding-bottom: 10px;
     background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
     background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+}
+
+.tab-cat {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.tab-cat:hover {
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
 }
 
 #ul-container {
@@ -24,7 +39,7 @@ main {
     margin: 0 auto;
 }
 
-#electric, #bass, #acoustic {
+#electric-container, #bass-container, #acoustic-container {
     display: flex;
     flex-flow: row wrap;
 }
@@ -62,5 +77,23 @@ footer i {
     .card {
         width: 100%;
         margin-bottom: 10px;
+    }
+}
+
+#animated {
+    position: relative;
+    animation-name: practice;
+    animation-duration: 0.5s;
+}
+
+@keyframes practice {
+    0% {
+        left: 100vw;
+        top: 0;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
     }
 }

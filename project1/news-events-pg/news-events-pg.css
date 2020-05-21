@@ -11,6 +11,28 @@
 
 .nav-link {
     font-size: 1.1rem;
+    transition: font-weight 0.3s;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+}
+
+main {
+    padding: 15px 40px 15px 150px;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA);
+}
+
+.img-container {
+    width: 400px;  
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 1%;
 }
 
 footer i {
@@ -19,4 +41,38 @@ footer i {
 
 .fa-mobile-phone, .fa-map-marker {
     font-size: 24px;
+}
+
+@media only screen and (max-width: 927px) {
+    main {
+        padding: 15px
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 673px) {
+    .img-container {
+        width: 100%;
+    }
+}
+
+#animated {
+    position: relative;
+    animation-name: practice;
+    animation-duration: 0.5s;
+}
+
+@keyframes practice {
+    0% {
+        left: 100vw;
+        top: 0;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
 }
