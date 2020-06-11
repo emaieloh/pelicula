@@ -8,20 +8,21 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-    background: #200122;
-    background: -webkit-linear-gradient(to right, #6f0000, #200122);
-    background: linear-gradient(to right, #6f0000, #200122);
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
 }
 
 #container {
     width: 450px;
-    margin: 50px auto;
+    margin: 50px;
+    float: left;
     padding-bottom: 20px;
     border: 4px solid grey;
     background-color: lightgrey;
     border-radius: 2%;
 }
-
+  
 .grid {
     width: 400px;
     height: 400px;
@@ -30,49 +31,80 @@ body {
     flex-wrap: wrap;
     background-color: grey;
 }
-
+  
 .grid div {
     width: 40px;
     height: 40px;
     text-align: center;
     line-height: 2.5;
     border: 1px solid black;
-    /* background: #bdc3c7;
+    background: #bdc3c7;
     background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
-    background: linear-gradient(to top, #2c3e50, #bdc3c7); */
+    background: linear-gradient(to top, #2c3e50, #bdc3c7);
 }
 
-.grid .checked {
-    background-color: yellow;
-}
+  .nomine {
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+  }
+  
+  .grid .checked {
+    height: 40px;
+    width: 40px;
+    border: 1px solid grey;
+    background: silver;
+    box-sizing: border-box;
+  }
+  
+  .mine {
+    height: 40px;
+    width: 40px;
+    border: 5px solid;
+    border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+    box-sizing: border-box;
+  }
+  
+  .one {
+    color: #e76346;
+  }
+  
+  .two {
+    color: #4199d3;
+  }
+  
+  .three {
+    color: #57da59;
+  }
+  
+  .four{
+    color: #bb41d3;
+  }
 
-/* .checked {
-    background-color: yellow;
-} */
-
-.mine {
-    background-color: red;
-}
-
-#mine-img, #red-flag {
+  #mine-img, #red-flag {
     width: 40px;
     height: 40px;
 }
 
-#start-button {
-    width: 80px;
-    margin-left: 21px;
-    border: none;
-    border-radius: 10%;
-    font-size: 26px;
-    color: white;
-    outline: none;
-    background: #3C3B3F;
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
+#result {
+    text-align: center;
 }
 
-#num-of-flags {
+#start-button {
+    width: 120px;
+    margin-left: 21px;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    outline: none;
+    background-color: royalblue;
+}
+
+#flags-left {
     float: right;
     margin-right: 21px;
     padding-right: 10px;
@@ -83,6 +115,17 @@ body {
 #flag-div {
     float: right;
     margin-right: 10px;
+}
+
+#instructions {
+    float: left;
+    width: 550px;
+    color: cornflowerblue;
+    margin: 50px;
+}
+
+li {
+    list-style-position: inside;
 }
 
 .clearfix::after {

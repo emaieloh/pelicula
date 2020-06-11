@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minesweeper</title>
-    <link rel="stylesheet" href="mini-game.css">
+  <meta charset="UTF-8">
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="mini-game.css">
 </head>
 <body>
-    <div id="container">
-        <div class="grid"></div>
-        <div id="panel" class="clearfix">
-            <button id="start-button">Start</button>
-            <div id="num-of-flags"></div>
-            <div id="flag-div"><img src="images/red-flag.png" id="red-flag"></div>
+    <div class="clearDiv clearfix">
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>Quick Start:</p>
+            <ul>
+                <li>You are presented with a board of squares. Some squares contain mines (bombs), others don't. If you click on a square containing a bomb, you lose. If you manage to click all the squares (without clicking on any bombs) you win.</li>
+                <li>Clicking a square which doesn't have a bomb reveals the number of neighbouring squares containing bombs. Use this information plus some guess work to avoid the bombs.</li>
+                <li>To open a square, point at the square and click on it. To mark a square you think is a bomb, point and right-click.</li>
+            </ul>
+            <p>Detailed Instructions:</p>
+            <ul>
+                <li>A squares "neighbours" are the squares adjacent above, below, left, right, and all 4 diagonals. Squares on the sides of the board or in a corner have fewer neighbors. The board does not wrap around the edges.</li>
+                <li>If you open a square with 0 neighboring bombs, all its neighbors will automatically open. This can cause a large area to automatically open.</li>
+                <li>To remove a bomb marker from a square, point at it and right-click again.</li>
+                <li>If you mark a bomb incorrectly, you will have to correct the mistake before you can win. Incorrect bomb marking doesn't kill you, but it can lead to mistakes which do.</li>
+                <li>Click the "New Game" button to start a new game.</li>
+            </ul>
         </div>
-    </div>
-    <script src="mini-game.js"></script>
+        <div id="container">
+            <div class="grid"></div>
+            <div id="panel" class="clearfix">
+                <button id="start-button">New Game</button>
+                <div id="flags-left"></div>
+                <div id="flag-div"><img src="images/red-flag.png" id="red-flag"></div>
+            </div>
+            <div id="result"></div>
+        </div>
+    </div>    
+  <script src="mini-game.js"></script>
 </body>
 </html>
