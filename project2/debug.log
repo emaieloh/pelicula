@@ -1,0 +1,117 @@
+[0608/062745.979:ERROR:settings.cc(320)] Settings magic is not 1129342067
+
+
+bombAmount = mineCount
+squares = cells
+square = tile
+bombsArray = minesArray
+emptyArray = noMineArray
+checkSquare = checkTile
+newSquare = newTile
+bomb = mine
+valid = nomine
+checkForWin = isWinner
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Mini Game</title>
+    <link rel="stylesheet" href="mini-game.css">
+</head>
+<body>
+    <div id="container" class="clearfix">
+        <div id="game-board" class="clearfix"></div>
+        <div id="panel" class="clearfix">
+            <button id="start-button">Start</button>
+            <div id="num-of-mines">BOOM!</div>
+            <button class="cell" id="flag-button"><img src="images/red-flag.png" id="red-flag"></button>
+        </div>
+    </div>
+    <script src="mini-game.js"></script>
+</body>
+</html> -->
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#container {
+    width: 450px;
+    margin: 50px auto;
+    padding-bottom: 20px;
+    border: 4px solid grey;
+    background-color: lightgrey;
+    border-radius: 2%;
+}
+
+#game-board {
+    width: 400px;
+    margin: 21px auto;
+    background-color: #e4e4e4;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    float: left;
+}
+
+button {
+    background: #bdc3c7;
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+    background: linear-gradient(to top, #2c3e50, #bdc3c7);
+}
+
+#start-button {
+    width: 80px;
+    margin-left: 21px;
+    border: none;
+    border-radius: 10%;
+    font-size: 26px;
+    color: white;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+}
+
+#num-of-mines {
+    float: right;
+    margin-right: 21px;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#mine-img, #red-flag {
+    width: 40px;
+    height: 40px;
+}
+
+#flag-button {
+    float: right;
+    margin-right: 10px;
+}
+
+#mine-img {
+    float: left;
+} */
+
+

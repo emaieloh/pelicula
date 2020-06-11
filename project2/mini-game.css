@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #200122;
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);
+    background: linear-gradient(to right, #6f0000, #200122);
+}
+
+#container {
+    width: 450px;
+    margin: 50px auto;
+    padding-bottom: 20px;
+    border: 4px solid grey;
+    background-color: lightgrey;
+    border-radius: 2%;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5;
+    border: 1px solid black;
+    /* background: #bdc3c7;
+    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);
+    background: linear-gradient(to top, #2c3e50, #bdc3c7); */
+}
+
+.grid .checked {
+    background-color: yellow;
+}
+
+/* .checked {
+    background-color: yellow;
+} */
+
+.mine {
+    background-color: red;
+}
+
+#mine-img, #red-flag {
+    width: 40px;
+    height: 40px;
+}
+
+#start-button {
+    width: 80px;
+    margin-left: 21px;
+    border: none;
+    border-radius: 10%;
+    font-size: 26px;
+    color: white;
+    outline: none;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+}
+
+#num-of-flags {
+    float: right;
+    margin-right: 21px;
+    padding-right: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#flag-div {
+    float: right;
+    margin-right: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
